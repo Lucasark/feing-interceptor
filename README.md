@@ -1,0 +1,1 @@
+Para bugar trocar o spring.main.allow-circular-references=true no application
