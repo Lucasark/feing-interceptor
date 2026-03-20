@@ -17,10 +17,8 @@ public class POCController {
     private final FirstClient firstClient;
 
     @GetMapping
-    public String get() {
+    public void get() {
         String response = firstClient.get();
-        log.info(response);
-        return "Response from FirstLayer: " + response;
     }
 
 }
